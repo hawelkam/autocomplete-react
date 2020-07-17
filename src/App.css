@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+input {
+  margin-top: 5%;
+  font-size: 2rem;
+  padding: 5px 25px;
+  width: 20%;
+  height: 3rem;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+ .hints {
+   list-style: none;
+   margin: 0 auto;
+   width: 20%;
+   padding: 0;
+ }
+
+li {
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px 25px;
+  transition: ease 0.5s;
+  -webkit-transition: ease 0.5s;
+  -moz-transition: ease 0.5s;
+  -ms-transition: ease 0.5s;
+  -o-transition: ease 0.5s;
+}
+
+li.selected {
+  color: white;
+  background-color: teal;
+}
+
+
